@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LOCATIONS" directorySegmentName="seg_0" id="64673E4D-502F-5864-E062-C557A0625724">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>37FDE7D4-5221-A0D9-9624-FFB7EE1F2BCA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A35A76BC-E14C-DBFA-41C1-B7FB709CDCF4</segment>
+<tableSpace>B3441D23-8467-1729-60F0-10DBDB504B31</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CITY" id="0C775410-B604-7722-0A18-BD599BDB9F7C">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_ID" id="168E73BB-26E5-285A-3DFC-66C155DBEA80">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE_PROVINCE" id="7764B2C9-A2E2-2CF7-0F85-F6772CD7A251">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTAL_CODE" id="E0ACFDE3-12ED-F33B-75F1-DD7D957D6B80">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_ID" id="F46AD287-4985-3F94-E53B-183C6CD1C5C1">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STREET_ADDRESS" id="F677D900-A51B-943A-AABE-A8C73412A63F">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOC_ID_PK" id="2EFE8B53-5F31-D9B1-C7BA-86B711A522FF">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>37FDE7D4-5221-A0D9-9624-FFB7EE1F2BCA</schemaObject>
+<segment>8049D85E-22B6-7EE0-0F5C-0312CE850603</segment>
+<tableSpace>B3441D23-8467-1729-60F0-10DBDB504B31</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOC_STATE_PROVINCE_IX" id="698E9AC7-044B-4AF9-D43A-8C3876C9642A">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>37FDE7D4-5221-A0D9-9624-FFB7EE1F2BCA</schemaObject>
+<segment>8049D85E-22B6-7EE0-0F5C-0312CE850603</segment>
+<tableSpace>B3441D23-8467-1729-60F0-10DBDB504B31</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOC_COUNTRY_IX" id="C9AE0527-0D97-C814-A407-F258E9E52F08">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>37FDE7D4-5221-A0D9-9624-FFB7EE1F2BCA</schemaObject>
+<segment>8049D85E-22B6-7EE0-0F5C-0312CE850603</segment>
+<tableSpace>B3441D23-8467-1729-60F0-10DBDB504B31</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOC_CITY_IX" id="CF25A50D-39A2-232C-1059-67015DC7DF87">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>37FDE7D4-5221-A0D9-9624-FFB7EE1F2BCA</schemaObject>
+<segment>8049D85E-22B6-7EE0-0F5C-0312CE850603</segment>
+<tableSpace>B3441D23-8467-1729-60F0-10DBDB504B31</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LOC_C_ID_FK" id="5096A0A6-24C8-2068-272D-7B3E7C6B3AAE">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOC_ID_PK" id="B6ED1856-0932-EC99-EEF2-A695A7379965">
+<createdBy>HANEUL</createdBy>
+<createdTime>2022-01-05 04:55:41 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<segment>8049D85E-22B6-7EE0-0F5C-0312CE850603</segment>
+<tableSpace>B3441D23-8467-1729-60F0-10DBDB504B31</tableSpace>
+<existingIndex>2EFE8B53-5F31-D9B1-C7BA-86B711A522FF</existingIndex>
+<indexSegment>8049D85E-22B6-7EE0-0F5C-0312CE850603</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
